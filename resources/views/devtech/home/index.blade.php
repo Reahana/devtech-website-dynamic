@@ -81,7 +81,7 @@
     </section>
 
     <!-- story -->
-    <section class="py-3 container-fluid story">
+    <section class="pb-3 pt-5  container-fluid story">
         <h1>Our Story</h1>
         <h4><i class="fas fa-star "></i> Who We Are <i class="fas fa-star"></i></h4>
         <div class="row row-cols-1 row-cols-md-2 g-5 mx-3">
