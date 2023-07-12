@@ -6,7 +6,7 @@
         <!--meta-->
         @include('devtech.includes.meta')
         <!-- css -->
-        @include('devtech.includes.css')
+        @include('devtech.includes.style')
     </head>
 
     <body>
@@ -19,7 +19,7 @@
         @include('devtech.includes.footer')
 
         <!-- js -->
-        @include('devtech.includes.js')
+        @include('devtech.includes.script')
     </body>
 
 </html>

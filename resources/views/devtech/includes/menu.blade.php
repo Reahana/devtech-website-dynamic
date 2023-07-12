@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-expand-lg bg-white navbar-light border-bottom border-dark ">
+<nav class="navbar sticky-top navbar-expand-lg top-menu navbar-light border-bottom border-dark ">
     <div class="container-fluid ">
         <a class="navbar-brand" href="#">
             <img src="{{asset('/')}}front/image/logo.png" alt="" width="210" height="60" class="d-inline-block align-text-top">
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse fs-4 " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 ">
                 <li class="nav-item ">
-                    <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link " href="./about.html">Story</a>
@@ -68,16 +68,16 @@
                 </li>
             </ul>
             <!-- social link -->
-            <div class="d-flex social justify-content-sm-start">
-                <a href="http://" class="facebook  me-3" target="_blank"><i class="fab fa-facebook-f  "></i></a>
-                <a href="http://" class="instagram  me-3"  target="_blank"><i class="fab fa-instagram  "></i></a>
-                <a href="http://" class="email  me-3" target="_blank"><i class="fas fa-envelope   "></i></a>
-                <a href="http://" class="search   me-5"  target="_blank"><i class="fas fa-search   "></i></a>
-            </div>
-            <!-- <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
+            <!-- <div class="d-flex social justify-content-sm-start">
+              <a href="http://" class="facebook  me-3" target="_blank"><i class="fab fa-facebook-f  "></i></a>
+              <a href="http://" class="instagram  me-3"  target="_blank"><i class="fab fa-instagram  "></i></a>
+              <a href="http://" class="email  me-3" target="_blank"><i class="fas fa-envelope   "></i></a>
+              <a href="http://" class="search   me-5"  target="_blank"><i class="fas fa-search   "></i></a>
+            </div> -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
         </div>
     </div>
 
